@@ -6,7 +6,7 @@ const Quiz = (quiz) => {
   // console.log(quiz)
   // console.log(id)
   return (
-    <div className="rounded-lg mt-10">
+    <div className="rounded-lg shadow-xl shadow-orange-400/50 ">
       <div className="p-2">
         <img
           className=" bg-orange-300 rounded-lg"
@@ -16,7 +16,7 @@ const Quiz = (quiz) => {
           data-aos-duration="2000"
           alt=""
         />
-        <div className="lg:flex lg:gap-4 w-10/12 mx-auto pb-[18px] text-lg mt-4 justify-between">
+        <div className="lg:flex lg:gap-5 w-10/12 mx-auto pb-[18px] text-lg mt-4 justify-between">
           <h3 className="text-white">{name}</h3>
           <h3 className="text-white">Questions:{total}</h3>
         </div>
